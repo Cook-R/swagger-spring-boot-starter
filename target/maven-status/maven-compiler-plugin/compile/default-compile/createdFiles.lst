@@ -1,6 +1,0 @@
-META-INF/spring-configuration-metadata.json
-cook/swaggerspringbootstarter/infra/config/SwaggerProperties.class
-cook/swaggerspringbootstarter/infra/config/SwaggerProperties$Contact.class
-cook/swaggerspringbootstarter/infra/SwaggerServiceAutoConfiguration.class
-cook/swaggerspringbootstarter/infra/EnableRXSSwagger2.class
-cook/swaggerspringbootstarter/infra/condition/SwaggerCondition.class
