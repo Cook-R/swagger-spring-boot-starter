@@ -15,7 +15,7 @@
 <!--    <groupId>cn.yunlingfly</groupId>-->
 <!--    <artifactId>swagger-spring-boot-starter</artifactId>-->
 <!--    <version>0.1-RELEASE</version>-->
-    <groupId>Cook-R</groupId>
+    <groupId>io.github.cook-r</groupId>
     <artifactId>swagger-spring-boot-starter</artifactId>
     <version>1.0</version>
     <name>swagger-spring-boot-starter</name>

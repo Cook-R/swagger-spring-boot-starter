@@ -1,0 +1,85 @@
+{
+  "groups": [
+    {
+      "name": "swagger",
+      "type": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.contact",
+      "type": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties$Contact",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "swagger.base-package",
+      "type": "java.lang.String",
+      "description": "swagger扫描的基础包，必填",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "swagger.base-path",
+      "type": "java.lang.String",
+      "description": "需要处理的基础URL规则，默认：\/**",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties",
+      "defaultValue": "\/**"
+    },
+    {
+      "name": "swagger.contact.email",
+      "type": "java.lang.String",
+      "description": "维护人email",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties$Contact"
+    },
+    {
+      "name": "swagger.contact.name",
+      "type": "java.lang.String",
+      "description": "维护人名",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties$Contact"
+    },
+    {
+      "name": "swagger.contact.url",
+      "type": "java.lang.String",
+      "description": "维护人url",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties$Contact"
+    },
+    {
+      "name": "swagger.description",
+      "type": "java.lang.String",
+      "description": "描述，必填",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.exclude-path",
+      "type": "java.lang.String",
+      "description": "需要排除的URL规则，默认：空",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties",
+      "defaultValue": ""
+    },
+    {
+      "name": "swagger.license",
+      "type": "java.lang.String",
+      "description": "许可证",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.license-url",
+      "type": "java.lang.String",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.title",
+      "type": "java.lang.String",
+      "description": "标题，必填",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties"
+    },
+    {
+      "name": "swagger.version",
+      "type": "java.lang.String",
+      "description": "版本",
+      "sourceType": "cook.swaggerspringbootstarter.infra.config.SwaggerProperties"
+    }
+  ],
+  "hints": []
+}
