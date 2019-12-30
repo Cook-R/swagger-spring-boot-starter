@@ -28,7 +28,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>oss</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>oss</id>
@@ -153,7 +153,7 @@
 
     <developers>
         <developer>
-            <name>cook</name>
+            <name>cookr</name>
             <email>shuai_0303@163.com</email>
             <url>https://github.com/Cook-R</url>
         </developer>
@@ -179,7 +179,7 @@
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.7</version>
+                <version>1.6</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>oss</serverId>
