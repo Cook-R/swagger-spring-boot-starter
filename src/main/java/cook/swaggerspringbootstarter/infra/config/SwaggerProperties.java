@@ -1,17 +1,16 @@
 package cook.swaggerspringbootstarter.infra.config;
 
-import io.swagger.models.Contact;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-/**
- * @ClassName swaggerspringbootautoconfigure
- * @Author cookr
- * @Date 2019/12/11 3:14 下午
- * @Version 1.0
- * @Description
- **/
+///**
+// * @ClassName swaggerspringbootautoconfigure
+// * @Author cookr
+// * @Date 2019/12/11 3:14 下午
+// * @Version 1.0
+// * @Description
+// **/
 
 @Component
 @Data

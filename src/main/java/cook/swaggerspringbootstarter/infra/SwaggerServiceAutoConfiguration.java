@@ -2,7 +2,6 @@ package cook.swaggerspringbootstarter.infra;
 
 import cook.swaggerspringbootstarter.infra.condition.SwaggerCondition;
 import cook.swaggerspringbootstarter.infra.config.SwaggerProperties;
-import io.swagger.models.Swagger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -20,13 +19,13 @@ import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
-/**
- * @ClassName swaggerspringbootautoconfigure
- * @Author cookr
- * @Date 2019/12/13 2:53 下午
- * @Version 1.0
- * @Description
- **/
+///**
+// * @ClassName swaggerspringbootautoconfigure
+// * @Author cookr
+// * @Date 2019/12/13 2:53 下午
+// * @Version 1.0
+// * @Description
+// **/
 
 @Configuration
 @EnableConfigurationProperties(SwaggerProperties.class)
