@@ -14,9 +14,6 @@
     </parent>
 
 
-<!--    <groupId>cn.yunlingfly</groupId>-->
-<!--    <artifactId>swagger-spring-boot-starter</artifactId>-->
-<!--    <version>0.1-RELEASE</version>-->
     <groupId>com.github.cook-r</groupId>
     <artifactId>swagger-spring-boot-starter</artifactId>
     <version>1.0.0.RELEASE</version>
@@ -162,10 +159,6 @@
 
     <build>
         <plugins>
-            <!--<plugin>-->
-            <!--<groupId>org.springframework.boot</groupId>-->
-            <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
-            <!--</plugin>-->
             <!-- Springboot的项目打包给其他项目用的话不能使用自带的打包插件，使用下面的 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

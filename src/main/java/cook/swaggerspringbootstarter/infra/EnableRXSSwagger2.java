@@ -5,9 +5,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.lang.annotation.*;
 
-///**
-// * @author cookr
-// */
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

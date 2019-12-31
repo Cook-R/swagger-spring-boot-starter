@@ -5,14 +5,6 @@ import org.springframework.context.annotation.ConditionContext;
 import org.springframework.core.type.AnnotatedTypeMetadata;
 import org.springframework.util.StringUtils;
 
-///**
-// * @ClassName swaggerspringbootautoconfigure
-// * @Author cookr
-// * @Date 2019/12/13 11:57 上午
-// * @Version 1.0
-// * @Description
-// **/
-
 
 public class SwaggerCondition implements Condition {
 
